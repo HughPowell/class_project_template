@@ -1,0 +1,9 @@
+git clone git://github.com/${GIT_OWNER}/${PROJECT_SHORT_NAME}.git
+cd ${PROJECT_SHORT_NAME}
+./autogen.sh
+./configure
+./make
+./make check
+sudo make install
+sudo ldconfig
+cd ..

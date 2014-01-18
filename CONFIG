@@ -1,0 +1,29 @@
+# The full name of your project
+PROJECT_NAME=My Project
+
+# Values required by CLASS (http://rfc.zeromq.org/spec:21#toc12)
+PROJECT_SHORT_NAME=myproject
+PROJECT_ABBREVIATION=myproj
+PROJECT_PREFIX=myp_
+
+# Where this project can be found in the big bad virtual world
+PROJECT_URL=http://www.myproject.org
+PROJECT_ADDRESS=contact@myproject.org
+
+# People already assigned to be administrators (http://rfc.zeromq.org/spec:22#toc10)
+# and maintainers (http://rfc.zeormq.org/spec:22#toc4)
+# Very possibly just you at the moment
+ADMINISTRATORS=Administrator <administrator@myproject.org>
+MAINTAINERS=Maintainer <maintainer@myproject.org>
+
+# The poor devil who drew the short straw and is now tasked
+# with keeping the manual up to date
+MANUAL_WRITER=Manual Writer
+MANUAL_WRITER_ADDRESS=manual.writer@myproject.org
+
+# The entity that is currently responsible for this project
+COPYRIGHT_OWNER=Copyright Owner
+
+# The user name of the GitHub repository where this project
+# is stashed
+GIT_OWNER=GitOwner

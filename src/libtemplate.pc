@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: lib${PROJECT_SHORT_NAME}
+Description: ${PROJECT_NAME} implementation in C
+Version: 1.0.0
+Requires: libczmq
+Libs: -L${libdir} -l${PROJECT_SHORT_NAME}
+Cflags: -I${includedir}

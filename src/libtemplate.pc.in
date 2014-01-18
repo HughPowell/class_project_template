@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: lib${PROJECT_SHORT_NAME}
+Description: ${PROJECT_NAME} implementation in C
+Version: @VERSION@
+Requires: libczmq
+Libs: -L${libdir} -l${PROJECT_SHORT_NAME}
+Cflags: -I${includedir}
