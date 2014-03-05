@@ -6,7 +6,7 @@ AC_PREREQ(2.61)
 # the version.sh script. Hence, it should be updated there.
 # The version in git should reflect the *next* version planned.
 #
-AC_INIT([clab],[m4_esyscmd([./version.sh ${PROJECT_SHORT_NAME}])],[${PROJECT_ADDRESS}])
+AC_INIT([${PROJECT_SHORT_NAME}],[m4_esyscmd([./version.sh ${PROJECT_SHORT_NAME}])],[${PROJECT_ADDRESS}])
 
 AC_CONFIG_AUX_DIR(config)
 AC_CONFIG_MACRO_DIR(config)
